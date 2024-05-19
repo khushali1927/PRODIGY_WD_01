@@ -1,0 +1,90 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(177, 178, 255);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    color:white;
+    background-color: blueviolet;
+}
+
+.scrolled {
+    background-color:rgb(170, 196, 255)    ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color:rgb(13, 48, 206) ;
+}
+
+#home{
+    background-image: url(/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#about{
+   
+        background-image: url(/about.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+}
+#services{
+    background-image: url(/service.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+#contact{
+   
+    background-image: url(/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
